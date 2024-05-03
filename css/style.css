@@ -288,4 +288,74 @@ body{
     font-size: 1.1rem;
 }
 
+/* ---------------four__section---------- */
+
+.Four__module{
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 5px;
+}
+
+.Four__module header{
+    width: 100%;
+    color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem ;
+    padding-block-start:5%;
+}
+
+.Four__module article{
+    width: 100%;
+    color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start:2% ;
+    font-size: 4rem;
+}
+
+.Four__module .image_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-block:5%;
+    gap: 5%;
+
+}
+
+
+.image_cards .cards2{
+    display: flex;
+    flex-direction: column;
+    /* background: yellowgreen; */
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+
+.image_cards .cards2 img{
+    padding-inline: 10%;
+}
+
+.image_cards .cards2 h2{
+    color: var(--color-1);
+    font-size: 1.7rem;
+
+}
+
+.image_cards .cards2 p{
+    text-align: center;
+    font-size: 2.1rem;
+    color: var(--color-3);
+    padding-block: 5%;
+}
+
+
+
+/* ---------------------------------------_ */
+
 
