@@ -82,6 +82,7 @@ body{
 .first__section > h2{
     color: var(--color-1);
     font-size:2rem ;
+    font-family: 'Poppins';
 }
 
 .first__section > div{
@@ -91,6 +92,7 @@ body{
     width: 40%;
     color: #FFF;
     font-size:2rem ;
+    font-family: 'Poppins';
 }
 
 .second__section{
@@ -121,12 +123,14 @@ body{
     color: var(--color-1);
     font-family: 'Poppins', sans-serif;
     font-size: 7rem;
+    font-family: 'Poppins';
     
 }
 
 .second__section div:first-child div p{
     color: #FFFF;
     font-size: 2rem;
+    font-family: 'Poppins';
 
 }
 
@@ -137,6 +141,7 @@ body{
     border-style: solid;
     border-color:var(--color-1);
     font-size: 1.5rem;
+    font-family: 'Poppins';
     color: #FFFF;
 }
 
@@ -176,6 +181,7 @@ body{
 
 .secon_module div:last-child p:first-child{
     font-size: 1.5rem;
+    font-family: 'Poppins';
     color: var(--color-1);
 }
 
@@ -183,6 +189,7 @@ body{
     /* background: yellowgreen; */
     width: 95%;
     font-size: 2.5rem;
+    font-family: 'Poppins';
     color: var(--color-3);
 }
 
@@ -192,6 +199,7 @@ body{
     /* background: blue; */
     width: 80%;
     font-size: 2rem;
+    font-family: 'Poppins';
     font-weight:200;
 }
 
@@ -218,7 +226,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:1.5rem ;
+    font-size:1.5rem ;    font-family: 'Poppins';
     padding-block-start:5%;
 }
 
@@ -230,6 +238,7 @@ body{
     align-items: center;
     padding-block-start:2% ;
     font-size: 4rem;
+    font-family: 'Poppins';
 }
 
 .Third__module .image_cards{
@@ -277,15 +286,19 @@ body{
 
 .card div:last-child p:first-child{
     font-size: 2rem;
+    font-family: 'Poppins';
 }
 
 .card div:last-child p:nth-child(2){
     font-size: 1.5rem;
+    font-family: 'Poppins';
 }
 
 .card div:last-child small{
     color: var(--color-1);
     font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-family: 'Poppins';
 }
 
 /* ---------------four__section---------- */
@@ -303,6 +316,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size:1.5rem ;
+    font-family: 'Poppins';
     padding-block-start:5%;
 }
 
@@ -314,6 +328,7 @@ body{
     align-items: center;
     padding-block-start:2% ;
     font-size: 4rem;
+    font-family: 'Poppins';
 }
 
 .Four__module .image_cards{
@@ -344,18 +359,40 @@ body{
 .image_cards .cards2 h2{
     color: var(--color-1);
     font-size: 1.7rem;
+    font-family: 'Poppins';
 
 }
 
 .image_cards .cards2 p{
     text-align: center;
     font-size: 2.1rem;
+    font-family: 'Poppins';
     color: var(--color-3);
     padding-block: 5%;
 }
 
 
 
-/* ---------------------------------------_ */
+/* -----------------five__section----------------------_ */
+
+.five__section{    
+    
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    padding-block: 10%;
+
+}
+
+.five__section > div{
+    background-color:var(--color-2);
+
+    width: 90%;
+    height: 50px;
+    display: flex;
+}
+
+
 
 
