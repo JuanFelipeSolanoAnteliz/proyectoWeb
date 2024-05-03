@@ -11,24 +11,29 @@
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
   }
 /* ------------------------------------------------------------------- */
-.first__module{
-    background: var(--primary-color);
-    width: 100%;
-    border-style: solid;
-    border-color: var(--color-1);
-    border-width: 3px;
-    /* padding:% ; */
-    /* z-index: ; */
-}
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+.first__module{
+    background: var(--primary-color);
+    width: 100%;
+    /* border-style: solid; */
+    /* border-color: var(--color-1); */
+    /* border-width: 3px; */
+    /* padding:% ; */
+    /* z-index: ; */
+}
 
 body{
     background: var(--color-1);
+    padding: 5px;
+
 }
+
+
+
 
 .header{
     background: var(--color-2);
@@ -71,6 +76,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-inline:5% ;
+    
 }
 
 .first__section > h2{
@@ -96,6 +102,8 @@ body{
     padding-block:2%;
     padding-inline: 10% ;
     gap: 5%;
+    padding-block: 10%;
+
 }
 
 .second__section div:first-child{
@@ -144,3 +152,56 @@ body{
     height: 100%;
 }
 
+/* --------------------------Second module---------------------------- */
+
+.secon_module{
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10%;
+    gap: 5%;
+    
+}
+
+.secon_module div:last-child{
+    /* background-color: red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secon_module div:last-child p:first-child{
+    font-size: 1.5rem;
+    color: var(--color-1);
+}
+
+.secon_module div:last-child > div{
+    /* background: yellowgreen; */
+    width: 95%;
+    font-size: 2.5rem;
+    color: var(--color-3);
+}
+
+
+.secon_module div:last-child p:nth-child(3){
+    color: var(--color-3);
+    /* background: blue; */
+    width: 80%;
+    font-size: 2rem;
+    font-weight:200;
+}
+
+.secon_module div:last-child button{
+    background-color: var(--color-1);
+    color: var(--color-2);
+    font-size: 1.5rem;
+    border-style: none;
+    width: 170px;
+    height: 40px;
+}
+
+/* -----------------------------Third__module----------- */
