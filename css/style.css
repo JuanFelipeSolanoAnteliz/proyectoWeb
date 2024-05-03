@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(variables.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--primary-color);
+}
+
+.header{
+    background: red;
+    width: 100vw;
+    height: 5vh;
+}
+
+/* -------------------------main------------------------- */
+
+.first__section{
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    padding-inline:5% ;
+}
+.first__section > div{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color: #FFF;
+}
+
+.second__section{
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__section div:first-child{
+    background: violet;
+    width: 750px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.second__section div:first-child h1{
+    color: var(--color-1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    
+}
+
+.second__section div:first-child div p{
+    color: #FFFF;
+    font-size: 2rem;
+
+}
+
+.second__section div:first-child button{
+    width: 160px;
+    height: 35px;
+    background-color:var(--color-1);
+    border-style: solid;
+    border-color:var(--color-1);
+    color: #FFFF;
+}
+
+.second__section div:last-child{
+    background: red;
+    width: 400px;
+    height: 400px;
+    
+} 
+
+
