@@ -24,6 +24,7 @@
     /* border-width: 3px; */
     /* padding:% ; */
     /* z-index: ; */
+
 }
 
 body{
@@ -69,10 +70,12 @@ body{
 }
 
 
+
 /* -------------------------main------------------------- */
 
 .first__section{
     /* background: blue; */
+    padding-top: 2%;
     display: flex;
     justify-content: space-between;
     padding-inline:5% ;
@@ -93,6 +96,19 @@ body{
     color: #FFF;
     font-size:2rem ;
     font-family: 'Poppins';
+}
+
+.first__section > div > a{
+    text-decoration: none;
+    color:var(--color-3);
+    transition-duration: 0.6s;
+}
+
+.first__section > div > a:hover{
+    transform: scale(1.1);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-4);
 }
 
 .second__section{
@@ -143,6 +159,12 @@ body{
     font-size: 1.5rem;
     font-family: 'Poppins';
     color: #FFFF;
+    transition-duration: 0.5s ;
+}
+
+.second__section div:first-child button:hover{
+    transform: scale(1.4);
+
 }
 
 .second__section div:last-child{
@@ -210,6 +232,12 @@ body{
     border-style: none;
     width: 170px;
     height: 40px;
+    transition-duration: .5s;
+}
+
+.secon_module div:last-child button:hover{
+    transform: scale(1.2);
+
 }
 
 /* -----------------------------Third__module----------- */
@@ -257,6 +285,11 @@ body{
     flex-direction: column;
     position:relative;
     padding-inline: 1%;
+    transition-duration: .5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 
 }
 
@@ -349,7 +382,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 20%;
-
+    transition-duration: .5s;
 }
 
 .image_cards .cards2 img{
@@ -371,7 +404,9 @@ body{
     padding-block: 5%;
 }
 
-
+.cards2:hover{
+    transform: scale(1.1);
+}
 
 /* -----------------five__section----------------------_ */
 
@@ -381,18 +416,131 @@ body{
     width: 100%;
     margin-top: 5px;
     display: flex;
-    padding-block: 10%;
+    padding-block: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .five__section > div{
     background-color:var(--color-2);
-
     width: 90%;
-    height: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-width: 5px;
+    border-color: rgb(77, 75, 75);
+}
+
+.five__section > div >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-block: 5%; ;
+}
+
+.five__section > div >div >h2{
+
+    width: 85%;
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+
+.five__section > div >div button{
+    background-color: var(--color-1);
+    color: var(--color-3);
+    font-size: 1.4rem;
+    width: 26%;
+    height: 50px;
+    border-style: none;
+    transition-duration: 0.5s;
+}
+
+.five__section > div >div button:hover{
+    transform: scale(1.2);
+}
+
+/* ------------------footer_section------------------- */
+
+.footer{
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    padding-block: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer__cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    gap:2%;
+}
+
+.footer .footer__cards .f__cards{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-3);
+}
+
+.f__cards h3{
+    font-size: 2rem;
+    padding-bottom: 2% ;
+}
+
+.f__cards hr{
+    width: 55%;
+    background:var(--color-1);
+    border: none;
+    height: 3px;
+}
+
+.f__cards > div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-top: 15%;
+    gap:5px;
+}
+
+.f__cards > div > p{
+    transition-duration: .5s;
+}
+
+.f__cards > div > p:hover{
+    color: var(--color-1);
+}
+
+.f__cards:last-child > article{
+    display: flex;
+    flex-direction: row;
+    /* background: #fff; */
+    width: 100%;
+    height: 30px;
+    gap:3%;
+    padding-top: 15%;
+
 }
 
 
+.f__cards:last-child > article > div{
+    background: var(--color-1);
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    transition-duration: .5s;
+}
 
-
+.f__cards:last-child > article > div:hover{
+    transform: scale(1.2);
+}
