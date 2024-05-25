@@ -16,6 +16,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--color-1);
+    padding: 5px;
+
+}
+
 .first__module{
     background: var(--primary-color);
     width: 100%;
@@ -27,21 +34,10 @@
 
 }
 
-body{
-    background: var(--color-1);
-    padding: 5px;
-
-}
-
-
-
-
-
-
-
 /* -------------------------main------------------------- */
 
 .first__section{
+    width: 100%;
     /* background: blue; */
     padding-top: 2%;
     display: flex;
@@ -60,9 +56,10 @@ body{
     /* background: green; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 40%;
     color: #FFF;
-    font-size:2rem ;
+    font-size:2vw;
     font-family: 'Poppins';
 }
 
@@ -83,23 +80,23 @@ body{
     /* background-color: yellowgreen; */
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
     padding-block:2%;
     padding-inline: 10% ;
-    gap: 5%;
+    
     padding-block: 10%;
 
 }
 
 .second__section div:first-child{
     /* background: violet; */
-    width: 750px;
-    height: 350px;
+    width: 45%;
+    /* height: 350px; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    gap:7%;
+    gap:15px;
 
 }
 
@@ -137,8 +134,7 @@ body{
 
 .second__section div:last-child{
     /* background: red; */
-    width: 500px;
-    height: 500px;
+    width: 55%;
     
 } 
 
@@ -214,6 +210,7 @@ body{
     background: var(--primary-color);
     width: 100%;
     margin-top: 5px;
+    /* padding-inline: 5%; */
 }
 
 .Third__module header{
@@ -245,16 +242,20 @@ body{
     justify-content: center;
     align-items: center;
     padding-block: 7%;
+    /* padding-inline: ; */
     gap: 5%;
 }
 
 .card{
     background-color: var(--color-2);
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     position:relative;
     padding-inline: 1%;
     transition-duration: .5s;
+    width: 25vw;
 }
 
 .card:hover{
@@ -563,7 +564,7 @@ body{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    
+        gap:15px;
     }
 
     .second__section > div{
@@ -785,6 +786,7 @@ body{
         text-align: center;
         font-size: 2.5rem;
         font-family: 'Poppins';
+        padding-inline: 1%;
     }
 
     .Third__module .image_cards{
@@ -802,6 +804,19 @@ body{
         font-size: 1.5rem;
         font-family: 'Poppins';
     }
+
+    .card{
+        background-color: var(--color-2);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        position:relative;
+        padding-inline: 1%;
+        transition-duration: .5s;
+        width: 80%;
+    }
+    
 
     .card div:last-child p:nth-child(2){
         font-size: 1rem;
@@ -843,12 +858,14 @@ body{
     
 
     .Four__module .image_cards{
+        /* background: yellowgreen; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         padding-block:5%;
+        padding-inline:5%;
         gap: 10px;
     }
 
